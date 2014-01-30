@@ -1,0 +1,23 @@
+########################
+####################
+#                  TODO                    #
+############################################
+
+
+
+
+*** Finalize the sprites
+
+*** Implement score counting
+
+*** Implement (cooler?) death
+
+*** Implement replay
+
+*** Implement hi-score list
+
+*** Different guns?
+
+*** Sound effects
+
+*** Changing/animated background?

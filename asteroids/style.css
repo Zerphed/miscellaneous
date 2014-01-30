@@ -1,0 +1,33 @@
+body {
+    background: black;
+    font-family: Helvetica, "Helvetica Neue", Arial;
+    font-size: 14px;
+}
+
+#content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#information {
+    float: right;
+    color: #FFA500;
+    border: 3px solid white;
+    
+    margin-right: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+#information ul {
+    list-style-type: square;
+}
+
+#game {
+    float: left;
+    margin: 0 auto;
+    
+    border: 3px solid white;
+    border-radius: 5px;
+}

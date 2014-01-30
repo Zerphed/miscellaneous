@@ -1,0 +1,42 @@
+############################################
+#              CHANGE LOG                  #
+############################################
+
+12.12.2012, 15:46: Fixed that the missiles get destroyed also in the collision with asteroids.
+                   Adjusted the speed of the missiles.
+                   
+            17:12: Added support for multiple simultaneous key presses.
+            
+            17:43: Optimized some aspects of the sprites, there is still a weird but that the sprites
+                   don't return their width and height correctly.
+                   
+            18:09: Gapped the player's total velocity to a given range [0, PLAYER_MAX_VELOCITY], it's a
+                   bit silly implementation but will do for now.
+                   
+            18:23: Added dampening (global DAMPENING) to smooth the movement of the player.
+            
+            18:49: Added background.
+            
+            19:06: Fixed the focus in the HTML. Now the canvas gets focus without clicking first.
+
+            
+13.12.2012, 01:44: Added some split sprites with transparent backgrounds.
+            
+            03:34: For fucks sake really. Ok I did some further advances with sprites etc, but there is
+                   some bug in the sprite image loading. The image dimensions return 0, which screws up
+                   the creation of the bounding boxes for the elements. Currently the real versions are
+                   commented out and constant values are given as placeholders.
+                   
+            13:44: Fixed the bug concerning the sprites. There can be only one @pjs preload directive at
+                   the beginning of the file, which caused the problem. The circumcircles etc are now
+                   being calculated correctly. I also added a debugging mode that shows the circles by
+                   setting the global DEBUG flag as true.
+                   
+            17:24: Experimented with audio, added shooting effect and AudioFX library. This looks like a
+                   viable option for our game. Obviously the sounds etc. need to be incorporated into
+                   the classes or in some other structured way, not a global variable like its atm. For
+                   more info: http://codeincomplete.com/posts/2011/9/17/revisiting_html5_audio/
+
+
+14.12.2012, 23:48 Start Screen. New level with more asteroids after all asteroids are destroyed. If player
+		  is hit by asteroid Start Screen reappears.

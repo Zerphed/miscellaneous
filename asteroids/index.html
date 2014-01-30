@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- JavaScript includes -->
+        <script src="audio-fx.min.js"></script>
+        <script src="processing-1.4.1.min.js"></script>
+        
+        <!-- CSS includes -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <title>Asteroids Clone With Processing JS</title>
+    </head>
+    
+    <body onload="document.getElementById('game').focus()">
+        <div id="content">
+            
+            <div id="gameContainer">
+                <canvas data-processing-sources="asteroids.pde" id="game" tabindex="1">
+                    Your browser does not support HTML5 canvas. Please go and download a modern browser, such as Google Chrome.
+                </canvas>
+            </div>
+            <div id="information">
+                <h2>Welcome</h2>
+                <p>Welcome to play the A!STEROIDS game that we've created as out school project for the Digital Media Tools course. 
+                </p>
+                <p>
+                The game was created using Processing JS and AudioFX JavaScript libraries along with appropriate sound effects and graphical elements. All the elements that were used and not created by ourselves were free and under Creative Commons or otherwise royalty free licenses.
+                </p>
+                <p>
+                There is a distinct purpose to continue the project to some extent even after the course to add a couple of more features such as a high score list with a backend and possible multiplayer support. However please enjoy the fruits of our work as of now.
+                </p>
+                <p>
+                The game has been tested with Windows 7 Professional x64, using the latest Google Chrome version 23.0.1271.97m. We do not guarantee perfect functionality with different environments.
+                </p>
+                <p>
+                Sincerely,
+                <br /><br />
+                Joonas Nissinen & Lauri Hartikka
+                <br />
+                &#174; No rights reserved
+                </p>
+                
+            
+                <h2>Keys</h2>
+                <ul>
+                    <li>Use the arrow keys to navigate</li>
+                    <li>Use the space key to shoot</li>
+                    <li>Use the P key to (un)pause</li>
+                </ul>
+            </div>
+            
+        </div>
+    </body>
+    
+</html>
