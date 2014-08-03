@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  tags:
+  - AlarmLight
+  - Enemy
+  - MainLight
+  - Fader
+  - WayPoint
+  - Siren
+  - Exit
+  - Alarm
+  - Ground
+  - Pickup
+  - 
+  Builtin Layer 0: Default
+  Builtin Layer 1: TransparentFX
+  Builtin Layer 2: Ignore Raycast
+  Builtin Layer 3: 
+  Builtin Layer 4: Water
+  Builtin Layer 5: 
+  Builtin Layer 6: 
+  Builtin Layer 7: 
+  User Layer 8: Buildings
+  User Layer 9: Ground
+  User Layer 10: Static Environment
+  User Layer 11: Non-Static Env
+  User Layer 12: Enemies
+  User Layer 13: Wheelchair
+  User Layer 14: Vincent Body
+  User Layer 15: Vincent Arms and Legs
+  User Layer 16: HUD Oculus
+  User Layer 17: Wall Buffer Collider
+  User Layer 18: Skybox
+  User Layer 19: HUD Uppon
+  User Layer 20: 
+  User Layer 21: 
+  User Layer 22: 
+  User Layer 23: 
+  User Layer 24: 
+  User Layer 25: 
+  User Layer 26: 
+  User Layer 27: 
+  User Layer 28: 
+  User Layer 29: 
+  User Layer 30: 
+  User Layer 31: 
+  m_SortingLayers:
+  - name: Default
+    userID: 0
+    uniqueID: 0
+    locked: 0

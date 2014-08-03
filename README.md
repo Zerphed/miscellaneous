@@ -1,4 +1,4 @@
 miscellaneous
 =============
 
-Miscellaneous personal work
+Miscellaneous work
